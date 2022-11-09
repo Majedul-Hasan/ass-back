@@ -16,12 +16,19 @@ const uri = `mongodb+srv://${process.env.PROJECT_NAME}:${process.env.PROJECT_PAS
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
-    const serviceCollectionsAll = client.db('Services').collection('servicesCollection');
+    const serviceCollectionsAll = client.db('reviewService').collection('reviewCollection');
 
     app.get('/services', async (req, res) => {
         const query = {};
         const cursor = serviceCollectionsAll.find(query);
         const result = await cursor.limit(3).toArray();
+        res.send(result)
+    })
+
+    app.get('/allservices', async (req, res) => {
+        const query = {};
+        const cursor = serviceCollectionsAll.find(query);
+        const result = await cursor.toArray();
         res.send(result)
     })
 
