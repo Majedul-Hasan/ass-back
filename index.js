@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.PROJECT_NAME}:${process.env.PROJECT_PASSWORD}@cluster0.dfmvdpa.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
@@ -25,11 +25,25 @@ async function run() {
         res.send(result)
     })
 
+    app.get('/services/:id', async (req, res) => {
+        const id = req.params.id;
+        const query = { _id: ObjectId(id) }
+        const services = await serviceCollectionsAll.findOne(query);
+        res.send(services)
+    })
+
     app.get('/allservices', async (req, res) => {
         const query = {};
         const cursor = serviceCollectionsAll.find(query);
         const result = await cursor.toArray();
         res.send(result)
+    })
+
+    app.get('/allservices/:id', async (req, res) => {
+        const id = req.params.id;
+        const query = { _id: ObjectId(id) }
+        const allservice = await serviceCollectionsAll.findOne(query);
+        res.send(allservice)
     })
 
 }
