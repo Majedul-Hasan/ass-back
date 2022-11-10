@@ -76,6 +76,30 @@ async function run() {
             res.send(result) 
         })
 
+       
+        app.patch('/review/:id', async (req, res) => {
+            const id = req.params.id;
+            const {message} = req.body;
+            console.log(message)
+            const query = { _id: ObjectId(id) }
+            const updateDoc = {
+                $set: {
+                    message: message,
+                }
+            }
+            const result = await postCollection.updateOne(query, updateDoc);
+            res.send(result)
+        })
+
+
+
+        app.delete('/review/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) }
+            const result = await postCollection.deleteOne(query);
+            res.send(result)
+        })
+
 
         app.get('/users', async (req, res) => {
             const query = {};
