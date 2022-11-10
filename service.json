@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://media.istockphoto.com/id/860598104/photo/high-angle-still-life-of-variety-of-raw-fresh-fish-chilling-on-bed-of-cold-ice-in-seafood.jpg?s=612x612&w=0&k=20&c=EBewyi8SBhK40qp_RsYZ2PP14x2lkhKzhIFOhyNCJC0=",
+        "name": "Fish Delivery",
+        "price": "20",
+        "description": "Get to know the staff at your local Fresh Fish Place. Be pleasant and ask questions. Your interest will be rewarded with valuable pieces of information that helps you prepare, cook and learn more about the fresh fish on offer at the shops. Learn what fresh seafood looks like. Fish should be bright, shiny and firm. Certain species, for example Mackerel, even raise their pectoral fins when they are extremely fresh. It is as if the fish is signalling, “Hey, I am fresh — yes, over here”.Surprisingly, many fish also show small sgns of their freshness. Super fresh sea bass often has beautifully spiky dorsal fins stretched out, whilst the sardines still have their bellies tight and firm.The quickest and most enjoyable way to learn about seafood is to buy the whole fish. Handling seafood is a great way to learn and understand what you want to cook. Watch cooking shows on television, read articles online, buy magazines and cookbooks. Buy fresh fish and experiment. Visit your The Fresh Fish Place regularly to ask questions and listen to conversations between your fishmonger and other customers. Never stop learning. Learn something new about buying seafood every time you visit The Fresh Fish Place."
+    },
+    {
+        "img": "https://media.istockphoto.com/id/1290242720/photo/proud-hindu-woman-author-get-personal-copies-of-published-book.jpg?b=1&s=170667a&w=0&k=20&c=tikNcC1HCmCiNPTLIva6_m0Q2ZG3pYrnLkgY4LGd6ZY=",
+        "name": "Book Delivery",
+        "price": "30",
+        "description": "If you're anything like us, then your passion for reading and writing doesn't end with the novels on your shelf or the scrawls in your notebook—you're always interested in what's going on in the literary world, from the latest publishing news to interviews with authors and writing advice columns. Does this sound like you? If so, look no further; we have compiled a list of the 20 best book blogs to follow in 2020. The blogs below specialize in genres and topics of all sorts, and there is sure to be something on this list for every kind of book enthusiast. Without further ado, checkout Scribendi's updated list of the 20 best book blogs to follow in 2020!"
+    },
+    {
+        "img": "https://media.istockphoto.com/id/1057982370/photo/delivery-mail-and-people-concept-smiling-asian-woman-opening-cardboard-box-at-home.jpg?s=612x612&w=0&k=20&c=WY5Pskdvg9w4ZvXFqs7KzfhTPo90bEeaV40N4v29vpU=",
+        "name": "Cloth Delivery",
+        "price": "50",
+        "description": "When it comes to fashion, visuals are key. It’s no wonder, then, that many lovers of style turn to Instagram and fashion blogs to get their fill of all things fashion. Instagram is great when it comes to OOTDs—outfit of the day—and quick style inspirations, but blogs are where the serious fashionistas go to write about trends, advice, and the latest fashion innovations. Not feeling particularly stylish today? Fashion blogs can give you inspiration for dressing well even on those lazy mornings. Got your eye on this season’s hottest trends? These blogs are great for helping you figure out which clothing pieces and colors suit your frame. They can also provide you with ideas about mixing and matching pieces to create a dozen perfect looks without breaking the bank."
+    },
+    {
+        "img": "https://media.istockphoto.com/id/1211782859/photo/shocked-delivery-man-in-red-uniform-hiding-behind-pizza-boxes-on-green.jpg?b=1&s=170667a&w=0&k=20&c=SBAQc4hV1SwmhC1_lAj61NcbOK_ysdWojd-mNO5O28E=",
+        "name": "Pizza Delivery",
+        "price": "35",
+        "description": "While eating at a restaurant is an enjoyable and convenient occasional treat, most individuals and families prepare their meals at home. To make breakfast, lunch, and dinner daily, these persons must have the required foods and ingredients on hand and ready to go; foods and ingredients are typically purchased from a grocery store, or an establishment that distributes foods, drinks, household products, and other items that're used by the typical consumer."
+    },
+    {
+        "img": "https://media.istockphoto.com/id/953800868/photo/woman-accepting-groceries-box-from-delivery-man-at-home.jpg?b=1&s=170667a&w=0&k=20&c=CvW7RNLSzTrpAXuXlGVvJljJ9x5sPeDpRtGc6F-vkcA=",
+        "name": "Fruits Delivery",
+        "price": "20",
+        "description": "Spring has finally arrived, adorning our tables once again with fruits we had been craving for during winter months. Eating a diet containing seasonal fruits and vegetables is the rule of thumb for a healthy lifestyle. Our bodies need the same vitamins and minerals no matter what month of the year, but eating seasonal fruits and vegetables is vital for health. Maintaining this routine gives you in return a stronger immune system to ward off allergic reactions that often occur during spring months and better protects your body against diseases. So, what fruits and vegetables should you eat in spring? Here are eight delicious fruits and vegetables of spring!"
+    },
+    {
+        "img": "https://media.istockphoto.com/photos/grocery-store-delivey-man-delivering-food-to-a-woman-at-home-picture-id876053206?b=1&k=20&m=876053206&s=170667a&w=0&h=NbYsSjHL9NdmEVPDlxQGBTXsfr3xZhJlWnkA4LSV8g0=",
+        "name": "vegetables Delivery",
+        "price": "10",
+        "description": "Spring has finally arrived, adorning our tables once again with fruits we had been craving for during winter months. Eating a diet containing seasonal fruits and vegetables is the rule of thumb for a healthy lifestyle. Our bodies need the same vitamins and minerals no matter what month of the year, but eating seasonal fruits and vegetables is vital for health. Maintaining this routine gives you in return a stronger immune system to ward off allergic reactions that often occur during spring months and better protects your body against diseases. So, what fruits and vegetables should you eat in spring? Here are eight delicious fruits and vegetables of spring!"
+    }
+]
